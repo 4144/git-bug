@@ -38,21 +38,21 @@ const styles = theme => ({
     display: "flex",
     alignItems: "center",
     "& a": {
-      textDecoration: "none"
-    }
+      textDecoration: "none",
+    },
   },
   status: {
-    margin: 10
+    margin: 10,
   },
   expand: {
-    width: "100%"
+    width: "100%",
   },
   title: {
-    display: "inline"
+    display: "inline",
   },
   labels: {
-    paddingLeft: theme.spacing.unit
-  }
+    paddingLeft: theme.spacing.unit,
+  },
 });
 
 const BugRow = ({ bug, classes }) => (

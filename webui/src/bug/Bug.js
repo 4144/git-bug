@@ -11,39 +11,39 @@ const styles = theme => ({
   main: {
     maxWidth: 600,
     margin: "auto",
-    marginTop: theme.spacing.unit * 4
+    marginTop: theme.spacing.unit * 4,
   },
   header: {},
   title: {
-    ...theme.typography.headline
+    ...theme.typography.headline,
   },
   id: {
     ...theme.typography.subheading,
-    marginLeft: 15
+    marginLeft: 15,
   },
   container: {
     display: "flex",
-    marginBottom: 30
+    marginBottom: 30,
   },
   timeline: {
     width: "70%",
     marginTop: 20,
-    marginRight: 20
+    marginRight: 20,
   },
   sidebar: {
-    width: "30%"
+    width: "30%",
   },
   labelList: {
     listStyle: "none",
     padding: 0,
-    margin: 0
+    margin: 0,
   },
   label: {
     margin: "4px 0",
     "& > *": {
-      display: "block"
-    }
-  }
+      display: "block",
+    },
+  },
 });
 
 const Bug = ({ bug, classes }) => (

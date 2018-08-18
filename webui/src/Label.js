@@ -2,7 +2,7 @@ import React from "react";
 import { withStyles } from "@material-ui/core/styles";
 import {
   getContrastRatio,
-  darken
+  darken,
 } from "@material-ui/core/styles/colorManipulator";
 import * as allColors from "@material-ui/core/colors";
 import { common } from "@material-ui/core/colors";
@@ -36,7 +36,7 @@ const getTextColor = background =>
 const _genStyle = background => ({
   backgroundColor: background,
   color: getTextColor(background),
-  borderBottomColor: darken(background, 0.2)
+  borderBottomColor: darken(background, 0.2),
 });
 
 // Generate a style object (text, background and border colors) from the label
@@ -51,8 +51,8 @@ const styles = theme => ({
     borderRadius: "3px",
     display: "inline-block",
     borderBottom: "solid 1.5px",
-    verticalAlign: "bottom"
-  }
+    verticalAlign: "bottom",
+  },
 });
 
 const Label = ({ label, classes }) => (
